@@ -1,0 +1,7 @@
+version: '1.0'
+
+services:
+  authorization-container:
+    build: ./
+    ports:
+      - "8080:8080"
